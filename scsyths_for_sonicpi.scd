@@ -59,7 +59,7 @@ Synth(\test2, [\note, 80, \amp: 0.1]); //test it
 // 03 getting control over pan and adding ADSR envelope to self terminate and control envelope
 // in sonicpi:
 // load_synthdefs "~/.local/share/SuperCollider/synthdefs"
-// use_synth :test2
+// use_synth :test3
 // play 73, pan:-1, attack: 0.3, decay: 0.1, sustain_level: 0.2, release: 0.5
 (
 SynthDef(\test3, { arg note=60, amp=1, pan=0, out_bus = 0, // NOTE, AMP, PAN and OUT_BUS!
@@ -83,7 +83,7 @@ Synth(\test3, [\pan, -1, \attack, 0.4, \decay, 0.1, \sustain_level, 0.5, \releas
 // you can add many more arguments to control from sonicpi in the synthdef
 // in sonicpi:
 // load_synthdefs "~/.local/share/SuperCollider/synthdefs"
-// use_synth :test2
+// use_synth :test4
 // play 73, detune: 0.5
 (
 SynthDef(\test4, { arg note=60, detune=0.1, amp=1, pan=0, out_bus = 0, // NOTE, AMP, PAN and OUT_BUS!
