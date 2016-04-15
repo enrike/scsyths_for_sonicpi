@@ -49,7 +49,6 @@ SynthDef(\test2, { arg note=60, amp=1, out_bus=0;
 }).store;
 )
 
-
 Synth(\test2, [\note, 80, \amp: 0.1]); //test it
 
 
