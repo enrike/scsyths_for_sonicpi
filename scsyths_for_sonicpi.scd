@@ -1,6 +1,8 @@
 // creating synthdefs in supercollider for sonicpi by ixi-audio.net
 // license: GPL
 
+// https://github.com/enrike/scsyths_for_sonicpi
+
 
 // https://github.com/samaaron/sonic-pi/blob/master/SYNTH_DESIGN.md#synth-design-constraints
 // https://github.com/samaaron/sonic-pi/blob/master/etc/synthdefs/designs/sonic_pi/synths/
